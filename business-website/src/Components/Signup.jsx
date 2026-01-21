@@ -3,7 +3,7 @@ import React from 'react'
 function Signup() {
   return (
     <div>
-        <h1 className='mt-[150px] text-center'>This is Signup Page</h1>
+        <h1 className='mt-30 text-center'>This is Signup Page</h1>
     </div>
   )
 }
