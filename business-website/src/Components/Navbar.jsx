@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 function Navbar() {
   return (
     <>
-    <nav className='fixed w-full'>
+    <nav className='w-full mt-5'>
         <ul className='max-w-[90vw] flex flex-wrap justify-between mx-auto'>
             <a href=""className='font-semibold text-2xl'>Dev-Rashid</a>
             <div className='flex [&>li]:pl-7'>
@@ -14,6 +14,7 @@ function Navbar() {
             </div>
         </ul>
     </nav>
+    <Outlet/>
     </>
   )
 }
